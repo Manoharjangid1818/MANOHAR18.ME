@@ -1,4 +1,4 @@
-# Manohar Rajotiya Portfolio
+# Manohar jangid Portfolio
 
 Personal portfolio website for Manohar Rajotiya, Software Test Engineer.
 
