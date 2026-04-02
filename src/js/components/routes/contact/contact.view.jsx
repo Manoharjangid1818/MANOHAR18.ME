@@ -29,9 +29,15 @@ export const ContactView = () => {
             </a>
 
             {/* linkedin */}
-            <a href='https://www.linkedin.com/in/manoharjangid1818' target='_blank' className='ui-contact__section'>
+            <a href='https://www.linkedin.com/in/manohar-jangid/' target='_blank' className='ui-contact__section'>
                 <div className='ui-contact__section__title'>LinkedIn</div>
                 <div className='ui-contact__section__value'>Manohar Rajotiya</div>
+            </a>
+
+            {/* instagram */}
+            <a href='https://www.instagram.com/manohar_suthar18?igsh=anA3dzM5a3ljNW9w&utm_source=qr' target='_blank' className='ui-contact__section'>
+                <div className='ui-contact__section__title'>Instagram</div>
+                <div className='ui-contact__section__value'>@manohar_suthar18</div>
             </a>
 
         </div>

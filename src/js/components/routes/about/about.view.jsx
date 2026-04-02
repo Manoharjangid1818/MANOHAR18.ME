@@ -118,8 +118,9 @@ export const AboutView = () => {
                                                 <p>I'm always open to a good conversation — whether it's about testing, tech, or a problem worth solving together.</p>
                                                 <ul>
                                                         <li>Drop me a line anytime at <a href="mailto:manoharjangid1818@gmail.com">manoharjangid1818@gmail.com</a></li>
-                                                        <li>Let's stay professionally connected on <a href="https://www.linkedin.com/in/manoharjangid1818" target="_blank">LinkedIn</a></li>
+                                                        <li>Let's stay professionally connected on <a href="https://www.linkedin.com/in/manohar-jangid/" target="_blank">LinkedIn</a></li>
                                                         <li>Catch my thoughts and updates over on <a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                                                        <li>Follow me on <a href="https://www.instagram.com/manohar_suthar18?igsh=anA3dzM5a3ljNW9w&utm_source=qr" target="_blank">Instagram</a></li>
                                                 </ul>
                                                 <h2>Open to opportunities</h2>
                                                 <p>Whether it's a role, a collaboration, or just a chat about QA and software — I'm genuinely interested. Don't hesitate to reach out.</p>
