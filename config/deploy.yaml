@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: manohar18
+  name: manohar18
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: manohar18
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: manohar18
+    spec:
+      containers:
+        - image: manohar18/intro
+          name: manohar18
+          ports:
+            - containerPort: 5292
+          resources: {}
+      restartPolicy: Always
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: manohar18
+  name: manohar18
+spec:
+  ports:
+    - name: "5292"
+      port: 5292
+      targetPort: 5292
+  selector:
+    app: manohar18
+  type: NodePort

@@ -1,0 +1,11 @@
+// common button
+@mixin ui-button() {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+  background-image: linear-gradient(177.4deg,transparent 90%,rgba(252,212,19,.5) 0);
+}

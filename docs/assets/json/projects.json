@@ -1,0 +1,26 @@
+[
+  {
+    "id": "qa360",
+    "title": "QA360 – SaaS Platform",
+    "description": "Developed and deployed a QA automation SaaS platform with React dashboard frontend, Node.js/Express backend, and Playwright-based automated tests for functional/E2E testing.",
+    "url": "https://github.com/Manoharjangid1818"
+  },
+  {
+    "id": "quickbid",
+    "title": "QuickBid – Auction Web Application",
+    "description": "Developed and tested an online bidding application. Created test plans, scenarios, cases; executed functional/regression testing; SQL validation.",
+    "url": "https://github.com/Manoharjangid1818"
+  },
+  {
+    "id": "notebank",
+    "title": "Note Bank Application",
+    "description": "Built a digital note-sharing app for college students with secure login and note access. Performed functional testing and validation.",
+    "url": "https://github.com/Manoharjangid1818"
+  },
+  {
+    "id": "placementcell",
+    "title": "Placement Cell Management",
+    "description": "Developed a web-based system to streamline student–recruiter interactions. Modules for registration, job postings, recruiter management.",
+    "url": "https://github.com/Manoharjangid1818"
+  }
+]
