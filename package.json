@@ -7,7 +7,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --mode development",
     "dev": "npm start",
-    "build": "NODE_ENV=production webpack --mode production",
+"build": "set \"NODE_ENV=production\" && webpack --mode production",
     "serve": "npx serve docs -s -l 3000",
     "preview": "npm run build && npm run serve"
   },
