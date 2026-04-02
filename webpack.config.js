@@ -2,7 +2,6 @@ const path = require( 'path' );
 const HTMLWebpackPlugin = require( 'html-webpack-plugin' );
 const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
 const CopyWebpackPlugin = require( 'copy-webpack-plugin' );
-const ConfigWebpackPlugin = require( 'config-webpack' );
 
 /*-------------------------------------------------*/
 
@@ -55,11 +54,7 @@ module.exports = {
         // copy static files from `src` to `docs`
         new CopyWebpackPlugin( [
             { from: path.resolve( __dirname, 'src/assets' ), to: path.resolve( __dirname, 'docs/assets' ) }
-        ] ),
-
-        // provide `CONFIG` global variable with `config/${NODE_ENV}.json`
-        // https://www.npmjs.com/package/config-webpack
-        new ConfigWebpackPlugin()
+        ]
     ],
 
     // resolve files configuration
@@ -99,16 +94,14 @@ module.exports = {
 
     // development server configuration
     devServer: {
-        port: 5000,
-        host: '0.0.0.0',
+        port: 3000,
         historyApiFallback: true,
-        disableHostCheck: true,
-        hot: false,
-        liveReload: false,
-        inline: false
+        hot: true,
+        liveReload: true
     },
 
     // generate source map
     devtool: 'source-map'
 
 };
+

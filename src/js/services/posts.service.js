@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// get Medium posts
+// get posts from local JSON
 export const getPosts = async () => {
-    const response = await axios.get( CONFIG.endpoints.articles );
+    const response = await axios.get( '/assets/json/articles.json' );
     return response.data;
 };

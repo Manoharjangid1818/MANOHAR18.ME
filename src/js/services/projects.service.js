@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// get GitHub projects
+// get projects from local JSON
 export const getProjects = async () => {
-    const response = await axios.get( CONFIG.endpoints.projects );
+    const response = await axios.get( '/assets/json/projects.json' );
     return response.data;
 };
