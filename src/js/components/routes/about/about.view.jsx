@@ -11,7 +11,7 @@ export const AboutView = () => {
                                         <div className="ui-about__bg" />
                                         <div className="ui-about__bg ui-about__bg__2" />
                                         <div className="ui-about__block__content">
-                                                <h1 className="page-title"><span>Hi, I'm Manohar Jangid</span></h1>
+                                                <h1 className="page-title"><span>Hi, I'm Manohar Rajotiya</span></h1>
                                                 <p>Experienced in software testing with hands-on exposure to manual and automation practices. Designed and executed 500+ test cases across functional, regression, and API testing. Developed Playwright automation scripts and built a QA platform (QA360) with React and Node.js, including deployment and integration. Skilled in API testing using Postman, database validation with SQL, defect tracking, and familiar with Git and CI/CD concepts.</p>
 
                                                 <h2>Technical Skills</h2>
@@ -140,3 +140,4 @@ AboutView.defaultProps = {};
 
 // set display name
 AboutView.displayName = 'AboutView';
+

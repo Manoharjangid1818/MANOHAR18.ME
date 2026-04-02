@@ -31,7 +31,7 @@ export const ContactView = () => {
             {/* linkedin */}
             <a href='https://www.linkedin.com/in/manoharjangid1818' target='_blank' className='ui-contact__section'>
                 <div className='ui-contact__section__title'>LinkedIn</div>
-                <div className='ui-contact__section__value'>Manohar Jangid</div>
+                <div className='ui-contact__section__value'>Manohar Rajotiya</div>
             </a>
 
         </div>
@@ -43,3 +43,4 @@ ContactView.defaultProps = {};
 
 // set display name
 ContactView.displayName = 'ContactView';
+
