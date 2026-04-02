@@ -39,7 +39,6 @@ module.exports = {
 
     // webpack plugins
     plugins: [
-
         // extract css to external stylesheet file
         new MiniCssExtractPlugin( {
             filename: 'styles.css'
@@ -54,12 +53,11 @@ module.exports = {
         // copy static files from `src` to `docs`
         new CopyWebpackPlugin( [
             { from: path.resolve( __dirname, 'src/assets' ), to: path.resolve( __dirname, 'docs/assets' ) }
-        ]
+        ] )
     ],
 
     // resolve files configuration
     resolve: {
-
         // file extensions
         extensions: [ '.js', '.jsx', '.scss' ],
 
@@ -82,7 +80,6 @@ module.exports = {
             cacheGroups: {
                 default: false,
                 vendors: false,
-
                 vendor: {
                     chunks: 'all', // both : consider sync + async chunks for evaluation
                     name: 'vendor', // name of chunk file
@@ -102,6 +99,5 @@ module.exports = {
 
     // generate source map
     devtool: 'source-map'
-
 };
 

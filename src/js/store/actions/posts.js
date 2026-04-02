@@ -1,7 +1,7 @@
 /**
- * @desc Add projects to the store.
+ * @desc Add posts to the store.
  * @example
- * import { addPosts } from 'store/actions/projects';
+ * import { addPosts } from 'store/actions/posts';
  */
 export const addPosts = ( items = [] ) => {
     return {
@@ -9,3 +9,5 @@ export const addPosts = ( items = [] ) => {
         payload: items,
     };
 };
+
+
